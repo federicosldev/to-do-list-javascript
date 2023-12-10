@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <main class="container">
+        <section class="content">
+            <h1>TO DO LIST</h1>
+            <form id="task-form">
+                <input id="createTask" type="text" placeholder="Create a new todo…">
+            </form>
+            <article>
+                <div>
+                    <ul id="taksContainer" class="taks-container"></ul>
+                    <div class="filters">
+                        <span id="remainTasks" class="remain-task">No tasks left</span>
+                        <button id="showAllTask">All</button>
+                        <button id="activeTask">Active</button>
+                        <button id="completeTask">Completed</button>
+                        <button id="deleteTask">Clear Completed</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
